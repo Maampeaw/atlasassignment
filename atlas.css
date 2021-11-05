@@ -1,0 +1,705 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logoandstuffs,
+.stuffs,
+.logopart,
+.logbuttons {
+  display: flex;
+  list-style-type: none;
+}
+.logoandstuffs,
+.logbuttons {
+  height: 100%;
+  align-items: center;
+}
+.logopart {
+  height: 100%;
+  align-items: center;
+}
+.header {
+  background: url(assets/headerbackground.png);
+  /* height: 500px; */
+  padding-bottom: 26px;
+}
+
+.headernav {
+  margin: auto;
+  width: 80%;
+  height: 122px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stuffs {
+  /* margin-left: 50px; */
+}
+.logo1 {
+  margin-right: 10px;
+}
+.docs {
+  margin-right: 56px;
+  /* height: 20.13px; */
+  left: 268px;
+  top: 53px;
+  color: #ffffff;
+}
+.signup {
+  width: 93px;
+  height: 35px;
+  background: #00ae07;
+  border-radius: 4px;
+  border: none;
+}
+.engage {
+  width: 513px;
+  height: 138px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 69px;
+  color: #ffffff;
+  margin-top: 70px;
+}
+.h2 {
+  margin: auto;
+  width: 80%;
+}
+.offerorder {
+  width: 674px;
+  height: 68px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 25px;
+}
+.bt1 {
+  width: 215px;
+  height: 38px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212d3d;
+  border: none;
+}
+.reason {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 66px;
+  align-items: center;
+  margin-top: 67px;
+}
+.text {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 80%;
+  height: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212d3d;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  font-size: 12px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.go {
+  width: 20%;
+  height: 100%;
+  background: #00ae07;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+}
+.languages {
+  background-color: #212d3d;
+  height: 100px;
+}
+.languagebar {
+  height: 100%;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  background-image: url(assets/background1.png);
+  padding-top: 100px;
+}
+.discoversection {
+  margin: auto;
+  width: 85%;
+  display: flex;
+}
+.lefttexts {
+  padding: 82px 32px 82px 32px;
+  background-color: #212d3d;
+}
+.solforu {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.discover {
+  width: 146px;
+  height: 64px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.textwrapper {
+  width: 224px;
+  height: 165px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 19px;
+}
+.offers1 {
+  display: flex;
+}
+.handstars {
+  display: block;
+  justify-content: center;
+  margin-left: 150px;
+  width: 200px;
+}
+.imghandstars {
+  display: flex;
+  justify-content: center;
+}
+.env {
+  margin-bottom: 37px;
+}
+.ear {
+  margin-bottom: 11px;
+}
+.hd {
+  margin-bottom: 6px;
+}
+.textease {
+  text-align: center;
+}
+.offers2 {
+  margin-top: 130px;
+}
+.env1 {
+  margin-bottom: 13px;
+}
+
+.interfacecontainer {
+  margin: auto;
+  width: 85%;
+  margin-top: 150px;
+  display: flex;
+}
+.headtext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 52px;
+  color: #212d3d;
+}
+.favlanguage {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+  margin-bottom: 30px;
+}
+
+.lorem {
+  width: 406px;
+  /* height: 176px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #4f4f4f;
+  margin-bottom: 10px;
+}
+.goto {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #263746;
+}
+.gotoimg {
+  margin-right: 12px;
+}
+.simpleinterface {
+  margin-right: 130px;
+}
+
+.tiltedphone {
+  margin-top: -20%;
+  margin-left: 230px;
+}
+.tablet {
+  margin-top: -26%;
+}
+.headertextdoc {
+  display: flex;
+  justify-content: center;
+}
+.document {
+  width: 245px;
+  height: 82px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #263746;
+}
+.headertextdoc {
+  margin-bottom: 19px;
+}
+.beforewestart {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #4f4f4f;
+}
+.descriptions {
+  margin: auto;
+  width: 50%;
+}
+.continuation {
+  margin-top: 20px;
+}
+.okay {
+  justify-content: center;
+  margin-top: 10px;
+}
+.documentpic {
+  margin-top: 42px;
+}
+.chattab {
+  display: flex;
+  justify-content: right;
+}
+.chattabitems {
+  height: 69px;
+  display: flex;
+  align-items: center;
+  background: #212d3d;
+  border-radius: 8px 0px 0px 0px;
+  padding: 0 20px 0 20px;
+}
+.chatwithagent {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.chatbubble {
+  margin-right: 32px;
+}
+.bethefirst {
+  padding-top: 50px;
+  background-color: #212d3d;
+  padding-bottom: 50px;
+}
+.getemail {
+  display: flex;
+  margin: auto;
+  width: 70%;
+}
+
+.btf {
+  width: 368px;
+  height: 77px;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 100px;
+}
+.tabforemail {
+  width: 685px;
+  height: 90px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 0 80px;
+}
+.submit {
+  width: 180px;
+  height: 65px;
+  background: #f9fcff;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 51px;
+  color: #06122f;
+}
+.email {
+  width: 200px;
+  height: 51px;
+  font-family: "Lato";
+  border: none;
+  background-color: transparent;
+}
+.email::placeholder {
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 51px;
+  color: #ffffff;
+}
+.manenvelope {
+  margin-right: 35px;
+}
+.footersection {
+  background: #f9f9f9;
+  padding-top: 95px;
+  padding-bottom: 60px;
+}
+.footeritems {
+  margin: auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.fliss {
+  list-style-type: none;
+}
+
+.listItem {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #adadad;
+}
+.cname {
+  color: #4f4f4f;
+}
+.nhh {
+  margin-bottom: 46px;
+}
+.naa {
+  margin-bottom: 30px;
+}
+.icons {
+  display: flex;
+  list-style-type: none;
+}
+.facebook {
+  margin-right: 12px;
+}
+hr {
+  margin-top: 50px;
+  border: 1px solid #cecece;
+  margin-bottom: 60px;
+}
+.copyright {
+  display: flex;
+  margin-left: 115px;
+}
+.clogo {
+  margin-right: 7px;
+}
+.fname {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #adadad;
+}
+.anada{
+    display: none;
+}
+.menu{
+    display: none;
+}
+#lists{
+    display: none;
+}
+.phonemail{
+    display: none;
+}
+@media screen and (max-width: 765px) {
+  .stuffs,
+  .logbuttons, .reason, .languages, .offers, .turbopic, .continuation, .chattab, .documentpic{
+    display: none;
+  }
+  .menu{
+      display: block;
+  }
+
+  .engage {
+    width: 318px;
+    height: 69px;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .offerorder {
+    width: 292px;
+    height: 61px;
+    font-family: "Lato";
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .bts{
+      display: flex;
+      justify-content: center;
+  }
+  .discoversection{
+      flex-direction: column;
+  }
+  .interfacecontainer{
+      flex-direction: column;
+      margin-top: 60px;
+  }
+  .simpleinterface{
+      margin-right: 0;
+  }
+  .lorem{
+      width: 300px;
+      text-align: left;
+  }
+  .tiltedphone, .iphone{
+   
+    height: 183.52px;
+  }
+  .tablet{
+    width: 300px;
+
+  }
+  .tiltedphone{
+      margin-top: 0;
+      margin-left: 100px;
+  }
+  .tablet{
+      margin-top: -20%;
+  }
+  .descriptions{
+      width: 100%;
+  }
+  .beforewestart{
+      margin:auto;
+      width: 80%;
+      text-align: left;
+    }
+    .documentpic{
+        width: 100%;
+        height: 200px;
+    }
+    .docu{
+        width: 100%;
+        height: 100%;
+    }
+    .getemail{
+        flex-direction: column;
+    }
+    .btf{
+    margin-left: 0px;
+    width: 100%;
+    height: 14px;
+    font-size: 10px;
+    line-height: 14px; 
+    text-align: center;
+    color: #212D3D;
+    }
+    .bethefirst{
+        padding: 32px;
+        background-color: #fff;
+    }
+    .footeritems{
+        padding-right: 0px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .tabforemail{
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        /* height: 200px; */
+        justify-content: none;
+
+    }
+    .tabforemail{
+    width: 300px;
+    
+    margin-top: 74px;
+    }
+    .submit{
+        width: 100%;
+        height: 50px;
+        line-height: 0px;
+        background-color: #212D3D;
+        color: white;
+        margin-top: 10px;
+        /* margin-left: 50px; */
+        
+    }
+    .getemail{
+        width: 100%;
+        justify-content: center;
+    }
+    .manenvelope{
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .anada{
+        width: 100%;
+        display: block;
+        margin-top: 80px;
+    }
+    .anadapic{
+        width: 100%;
+    }
+    .phoneandtablets{
+        margin-top: 50px;
+    }
+    .goto{
+        justify-content: center;
+    }
+    .discoversection{
+        width: 100%;
+        background: url(assets/bg.png);
+        margin-top: -70%;
+       }
+    .lefttexts{
+        padding-left: 32px;
+        padding-right: 32px;
+        background-color: transparent;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .textwrapper{
+        width: 100%;
+    }
+    .header{
+        height: 600px;
+    }
+    #lists{
+        /* display: block; */
+        background-color: #212D3D;
+        opacity: 0.6;
+        
+        justify-content: center;
+    }
+    .header{
+        /* position: relative; */
+    }
+    .menutab{
+        position: absolute;
+        height: 500px;
+        /* display: flex; */
+        /* right: 40px;
+        top: 60px; */
+        /* display: none; */
+        /* justify-content: right; */
+        /* display: none; */
+        width: 100%;
+        
+    }
+    .header .menutab ul li{
+        margin-top: 20px;
+        margin-left: 15px;
+        opacity: 1;
+    }
+    .header .menutab ul li a{
+        margin-bottom: 20px;
+        color:white;
+    }
+    .phonemail{
+        display: block;
+    }
+    .email {
+        width: 100%;
+        height: 51px;
+        font-family: "Lato";
+        border: none;
+        background-color: transparent;
+        border: 1px solid black;
+      }
+      .email::placeholder {
+        font-family: "Lato";
+        font-size: 14px;
+        line-height: 51px;
+        color: black
+}
+.facebook{
+    margin-bottom: 15px;
+}
+.headernav{
+    height: 0px;
+    padding-top:  50px;
+    padding-bottom: 5px;
+}
+}
